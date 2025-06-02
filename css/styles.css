@@ -1,0 +1,119 @@
+h1{
+    color:#df86f0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font: weight 100px;
+    font-style:italic;
+    text-align: center;
+    text-decoration: underline #fe1fd9;
+}
+h2{
+    font-size:large;
+    text-decoration:underline;
+    color:rgb(88, 11, 160);
+}
+
+a{
+    color:red;
+}
+nav{
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+nav img{
+  width: 200px;
+  height: auto;
+}
+
+.practicando {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #6a63f3;
+    text-align: justify;
+  }
+  .card{
+    background-color:#BDEF15;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    border: 10px solid green;
+    border-radius: 10px;
+    padding: 5px;
+
+  }
+  .card img{
+    max-width: 100%;
+
+  }
+  section{
+    background-color:aliceblue;
+    margin: 50px;
+  }
+  header{
+    background-color: #83F7B1;
+  }
+  footer{
+    background-color:  #83F7B1;
+  }
+  .contenedor_limite{
+    background-color: #df86f0;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contenedor_limite2{
+    background-color: #7eccd2;
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contenedor_padre{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+
+  }
+  /*---------------media query--------------------------------------------*/
+  @media screen and (max-width: 650px){
+    header{
+      flex-direction: column;
+      align-items:flex-start;
+    }
+    nav ul{
+      flex-direction: column;
+    }
+  }
+@media screen and (max-width:400px) {
+
+}
+/*----------------Codigo de grilla------------------------------*/
+
+
+.parent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 4px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 3; }
+
+.div1 img{
+   max-width: 100%;
+}
+.div2 { grid-area: 2 / 1 / 3 / 2; }
+.div2 img{
+   max-width: 100%;
+}
+
+.div3 { grid-area: 2 / 2 / 3 / 3; }
+.div3 img{
+   max-width: 100%;
+}

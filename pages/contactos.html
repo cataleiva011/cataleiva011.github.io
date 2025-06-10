@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,31 +11,69 @@
     <title>Contactos</title>
 </head>
 <body>
-    <header>
-        <H1> Venta de autos </H1>
-        <nav>
-            <ul> 
-              
-                <li> <a href="../index.html">Inicio</a></li>
-                <li> <a href="../pages/contactos.html">Contactos</a></li>
-                <li><a href="../pages/productos.html">Productos</a> </li>
-            </ul>
+   <header>
+        <nav class="navbar navbar-expand-lg bg-danger">
+            <div class="container-fluid">
+                <img src="../img/Stranger_Things_logo.png" alt="logo" width="100%">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="../pages/contactos.html">Contacto</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
         </nav>
-    </header>
-    <h1> Contactos </h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repudiandae deserunt consequatur rerum, saepe quas nihil nobis magnam sapiente placeat. Repellendus vero sapiente hic illo culpa molestias nobis iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt nulla alias ducimus eos laboriosam repudiandae ipsa ipsum labore! Obcaecati quis impedit esse ratione autem sed recusandae eius omnis saepe! </p>
-    <footer>
-        <div>
-            <h3> Redes sociales</h3>
-            <ul>
-                <li> <a href="https://www.youtube.com">Youtube</a></li>
-             
-                <li><a href="https://www.Instagram.com">Instagram</a> </li>
-               
+       <!-- <nav>
+            <img src="./img/logo auto.jpg" alt="">
+            <ul> 
+                
+                <li> <a href="../index.html">Inicio</a></li>
+                <li> <a href="./pages/contactos.html">Contactos</a></li>
+                <li><a href="./pages/productos.html">Productos</a></li>
             </ul>
-            <h4>Realizado por Catalina 💖</h4>
+        </nav>-->
+    </header>
+    <main>
+
+        <h1> Contactos </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus repudiandae deserunt consequatur rerum, saepe quas nihil nobis magnam sapiente placeat. Repellendus vero sapiente hic illo culpa molestias nobis iste Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint deserunt nulla alias ducimus eos laboriosam repudiandae ipsa ipsum labore! Obcaecati quis impedit esse ratione autem sed recusandae eius omnis saepe! </p>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Descripción</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    
+        
+    </main>
+    
+    <footer>
+        <h2> Redes sociales</h2>
+        <div class="social-media">
+            
+            <a href="https://www.youtube.com/watch?v=QlYrNC_1Xmk"><img src="../img/youtube.png" alt="youtube"></a>
+             
+            <a href="https://www.instagram.com/strangerthings_web1/"><img src="../img/instagram.png" alt="Instagram"></a>
+               
+        </div>
+        <h4>Desarrollado por Catalina Leiva💗</h4>
+        <h4> ©2025 Talento Tech</h4>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>    
 
 </body>
 

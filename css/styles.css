@@ -10,7 +10,7 @@ h1{
 h2{
     font-size:large;
     text-decoration:underline;
-    color:rgb(88, 11, 160);
+    color:rgb(237, 20, 20);
 }
 
 a{
@@ -27,20 +27,31 @@ nav img{
   width: 200px;
   height: auto;
 }
+/*---------pseudoclases---------*/
+
+h1:hover{
+  transform:scale(2);
+  transform: rotate(45deg);
+  transform: translate(21px);
+}
+
+nav a:hover{
+  color:lightseagreen
+}
 
 .practicando {
     font-family: "Lobster", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #6a63f3;
+    color: #242326;
     text-align: justify;
   }
   .card{
-    background-color:#BDEF15;
+    background-color:#f6f8ef;
     width: 300px;
     text-align: center;
     margin: 0 auto;
-    border: 10px solid green;
+    border: 10px solid red;
     border-radius: 10px;
     padding: 5px;
 
@@ -66,7 +77,7 @@ nav img{
     text-align: center;
   }
   .contenedor_limite2{
-    background-color: #7eccd2;
+    background-color: #f6fafa;
     max-width: 1500px;
     margin: 0 auto;
     text-align: center;
@@ -116,4 +127,32 @@ nav img{
 .div3 { grid-area: 2 / 2 / 3 / 3; }
 .div3 img{
    max-width: 100%;
+}
+/*--------------------Footer-----------------------------------------*/
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+h4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+  font-size: small;
+}
+
+.social-media {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px; /* Ajusta el tamaño de los iconos */
+  height: auto;
 }
